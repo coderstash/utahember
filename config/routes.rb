@@ -5,8 +5,8 @@ Utahember::Application.routes.draw do
 
 
   # Root
-  root to: 'login#index'
-  
+  root to: 'pages#index'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

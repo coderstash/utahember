@@ -10,6 +10,10 @@
 // WARNING: THE FIRST BLANK LINE MARKS THE END OF WHAT'S TO BE PROCESSED, ANY BLANK LINE SHOULD
 // GO AFTER THE REQUIRES BELOW.
 //
-//= require jquery
-//= require jquery_ujs
-//= require_tree .
+//= require vendor/jquery
+//= require vendor/handlebars
+//= require vendor/ember
+//= require vendor/ember-data
+//= require vendor/ember-model
+//= require vendor/ic-ajax
+//= require vendor/moment
