@@ -1,0 +1,39 @@
+development:
+  adapter: mysql2
+  encoding: utf8
+  reconnect: false
+  database: utahember_development
+  pool: 5
+  username: root
+  password:
+  socket: /tmp/mysql.sock
+
+test:
+  adapter: mysql2
+  encoding: utf8
+  reconnect: false
+  database: utahember_test
+  pool: 5
+  username: root
+  password:
+  socket: /tmp/mysql.sock
+
+staging:
+  adapter: mysql2
+  encoding: utf8
+  reconnect: false
+  database: utahember_staging
+  pool: 5
+  username: root
+  password:
+  socket: /var/run/mysqld/mysqld.sock  
+
+production:
+  adapter: mysql2
+  encoding: utf8
+  reconnect: false
+  database: utahember_production
+  pool: 5
+  username: root
+  password:
+  socket: /var/run/mysqld/mysqld.sock
